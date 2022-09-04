@@ -1,0 +1,26 @@
+{
+  "name": "dr-pace-api",
+  "version": "1.0.0",
+  "description": "Dr. Pace Backend APIs",
+  "author": "Anshul Bansal <anshulbansal02@outlook.com>",
+  "type": "module",
+  "main": "./src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

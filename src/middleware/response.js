@@ -31,8 +31,7 @@ class Response {
         Object.assign(responseObject, payload);
       else responseObject.message = payload;
     }
-
-    this.#res.status(code);
+    this.#res.status(+code);
     this.#res.json(responseObject);
   }
 }

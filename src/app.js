@@ -6,10 +6,9 @@ import * as dotenv from "dotenv";
 
 import { Response } from "./middleware/index.js";
 
-import initDB from "./models/database/index.js";
-import defineModels from "./models/index.js";
-
 import * as controllers from "./api/index.js";
+
+import Database from "./models/index.js";
 
 const initApp = async () => {
   console.log("Loading environment variables");
@@ -20,13 +19,13 @@ const initApp = async () => {
 
   console.log("Initializing database connection");
 
-  const db = await initDB({
+  await Database.init({
     host: process.env.DB_HOST,
     database: process.env.DB_NAME,
     username: process.env.DB_USER,
     password: process.env.DB_PASS,
   });
-  defineModels(db);
+  await Database.defineModels();
 
   console.log("Stacking middlewares");
   app.use(helmet());

@@ -1,5 +1,5 @@
-const initRelations = (sequelize) => {
-  const { User, Consultation, Appointment, Slot } = sequelize.models;
+const initRelations = (models) => {
+  const { User, Consultation, Appointment, Slot } = models;
 
   User.hasMany(Consultation);
   Consultation.belongsTo(User, { foreignKey: "patientId" });

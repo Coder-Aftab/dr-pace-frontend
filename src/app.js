@@ -35,7 +35,14 @@ const initApp = async () => {
   app.use(Response.middleware);
 
   console.log("Adding routes");
-  app.use("/", controllers.healthcheck);
+  app.use("/api/user", controllers.user);
+  app.use("/api/doctor", controllers.doctor);
+  app.use("/api/slot", controllers.slot);
+  app.use("/api/consultation", controllers.consultation);
+  app.use("/api/appointment", controllers.appointment);
+
+  app.use(controllers.notFound);
+  app.use(controllers.errorHandler);
 
   console.log("Starting up the server");
   const PORT = process.env.PORT || 4000;

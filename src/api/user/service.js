@@ -1,3 +1,7 @@
-import models from "./../../models/index.js";
+const createDoctor = (user) => {};
 
-models.User.getOne();
+const createPatient = (user) => {};
+
+const updateUser = (updatedUser) => {};
+
+const getProfile = (userId) => {};

@@ -1,0 +1,18 @@
+.signUpBtn{
+  font-weight: bold;
+  font-size: large;
+  background-color: #06283D;
+
+  color: #DFF6FF;
+  width: 20rem;
+  border-style: none;
+  border-radius: 1rem;
+  height: 4rem;
+}
+
+.signUpBtn:hover{
+background-color: #cfdbe2;
+  color: black;
+  transition: 1.2;
+  border: 3px solid rgb(198, 197, 193);
+}

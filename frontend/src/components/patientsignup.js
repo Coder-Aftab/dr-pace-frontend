@@ -7,7 +7,7 @@ export const PatientRegister = () => {
 
    <div className="sign">
       <div className="signBox">
-        <h1>Patient Signup</h1>
+        <h1>Patient Sign up</h1>
         <form  className="signform">
           <label>
             Name
@@ -26,8 +26,10 @@ export const PatientRegister = () => {
             email
           </label>
           <input type="email" required></input>
-          <button className="signUpBtn">Signup</button>
+          <button className="signUpBtn">Sign up</button>
         </form>
+         <h2>Already have an Account? <span><a href="/PatientLogin">Sign in</a></span></h2>
+
       </div>
     </div>
   )

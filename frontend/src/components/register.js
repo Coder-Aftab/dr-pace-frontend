@@ -1,4 +1,4 @@
-import Button  from "./button";
+
 import React from "react";
 import DocPatientImg from "../resources/doctorandpatient.png"
 import "../css/register.css"
@@ -18,11 +18,11 @@ const Register = () => {
 
           <h1>Doctor</h1>
           <Link to="/DocRegister">
-           <button className="signUpBtn">Signup</button>
+          <button className="signUpBtn">Sign up</button>
             </Link>
           <br />
           <Link to="/DocSignIn">
-            <Button></Button>
+          <button className="signUpBtn">Sign in</button>
             </Link>
 
         </div>
@@ -30,11 +30,12 @@ const Register = () => {
         <div className="patRegister">
           <h1>Patient</h1>
           <Link to="/PatientRegister">
-            <button className="signUpBtn">Signup</button>
+
+            <button className="signUpBtn">Sign up</button>
             </Link>
           <br />
           <Link to="/PatientLogin">
-          <Button></Button>
+          <button className="signUpBtn">Sign in</button>
           </Link>
         </div>
       </div>

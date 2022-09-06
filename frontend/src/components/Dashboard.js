@@ -1,11 +1,14 @@
-import react from "react"
-
+import React from "react";
+import Navbar from "./navbar";
+import "../css/dashboard.css";
+import Home from "./home";
 const DashBoard = () => {
-
-
   return (
-    <div>
-      <h1>Dr. Pace</h1>
+
+    <div className="container">
+      
+
+      <Home className="Home"></Home>
     </div>
   )
 }

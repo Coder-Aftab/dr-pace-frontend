@@ -1,0 +1,14 @@
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  width: 25rem;
+  height: 13rem;
+  background-color: #06283D;
+  color: aliceblue;
+}
+.v{
+  height: 7rem;
+  border-left: .2rem solid white;
+}

@@ -1,0 +1,30 @@
+.navButton {
+  font-size: 2.5rem;
+  color: #DFF6FF;
+  height: inherit;
+  background-color: #47B5FF;
+  border-radius: 1rem;
+  border: 2px solid white;
+}
+.navButton:hover{
+  background-color: #cfdbe2;
+  color: black;
+  transition: 1.2;
+  border:3px solid rgb(198, 197, 193);
+}
+.headContainer{
+  font-size: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 0 0 1.2rem 1.2rem;
+  background-color: #47B5FF;
+  height: 7rem;
+}
+.logo{
+
+  color: #DFF6FF;
+}
+.link{
+  text-decoration: none;
+}

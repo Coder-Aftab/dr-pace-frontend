@@ -1,32 +1,72 @@
 .homeAd {
 
-  grid-area: mainContent;
-  justify-content: space-around;
-  display: flex;
-}
 
+}
+.headerClass{
+  display: flex;
+  justify-content: space-evenly;
+
+}
 hr {
   border-top: .4rem solid black;
   width: 50%;
 }
 
 .mainText {
-  display: flex;
-  flex-direction: column;
-
+  align-content: center;
+  align-items: center;
 }
 
 .mainText>h1 {
-  font-size: 6.4rem;
-
-}
-
-.mainText>p {
-
   font-size: 4rem;
-  width: max-content;
-
-
+  margin-bottom: 0;
 }
 
-.mainImg {}
+.punchLine {
+  text-align: right;
+}
+.punchLine>h2{
+  margin: 0;
+  font-size: 3rem;
+}
+
+.mb {
+  display: flex;
+  justify-content: center;
+}
+.SearchBox{
+
+  width: 80%;
+  text-align: center;
+  border-radius: 12px;
+  color: aliceblue;
+  height: 20rem;
+  background-color: #06283D;
+
+}
+.SearchBox>h1{
+  font-size: 3.2rem;
+}
+.searchBar{
+  height: 3rem;
+  border-radius: 12px 0  0 12px;
+  width: 50%;
+  background-color: #D9D9D9;
+}
+.searchButton{
+  margin-left: 0;
+  width: 20%;
+  height: 3rem;
+  background-color:#47B5FF ;
+  color: #DFF6FF;
+  font-size: medium;
+  border-radius: 0  12px 12px 0;
+  transition: width height font-size;
+}
+
+.searchButton:hover{
+  width: 22%;
+  font-size: large;
+  height: 3.2rem;
+}
+

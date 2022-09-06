@@ -8,7 +8,7 @@ export const DocRegister = () => {
   return (
       <div className="sign">
       <div className="signBox">
-        <h1>Doctor Signup</h1>
+        <h1>Doctor Sign Up</h1>
         <form  className="signform">
           <label>
             Name
@@ -27,8 +27,9 @@ export const DocRegister = () => {
             email
           </label>
           <input type="email" required></input>
-          <Button></Button>
+          <button className="signUpBtn">Sign up</button>
         </form>
+         <h2>Already have an Account? <span><a href="/DocSignIn">Sign in</a></span></h2>
       </div>
     </div>
   )

@@ -1,7 +1,4 @@
-.homeAd {
 
-
-}
 .headerClass{
   display: flex;
   justify-content: space-evenly;
@@ -69,4 +66,16 @@ hr {
   font-size: large;
   height: 3.2rem;
 }
-
+.middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top:2rem ;
+  margin-bottom: 2rem;
+}
+.doccard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

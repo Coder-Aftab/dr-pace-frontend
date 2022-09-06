@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/home.css"
+import DocCard from "./cards";
 import docImg from "../resources/Doctorfront.png"
 
 
@@ -35,6 +36,15 @@ const Home = () => {
             <input className="searchButton" type="submit"></input>
           </form>
           </div>
+        </div>
+
+        <div className="middle">
+          <h1>Our Experts</h1>
+          <div className="doccard">
+            <DocCard></DocCard>
+            <DocCard></DocCard>
+            <DocCard></DocCard>
+            </div>
         </div>
     </div>
   </>

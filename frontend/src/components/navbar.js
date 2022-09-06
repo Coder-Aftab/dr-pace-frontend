@@ -1,4 +1,6 @@
 import React from "react";
+import {BrowserRouter as Router, Link} from 'react-router-dom';
+
 import '../css/navbar.css'
 
 const Navbar = () => {
@@ -10,7 +12,9 @@ const Navbar = () => {
         Dr.Pace
       </div>
       <div className="signup">
-        <button>Signup/Login</button>
+        <Link to="/login">
+          <button>Signup/Login</button>
+          </Link>
     </div>
     </div>
   )

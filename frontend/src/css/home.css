@@ -1,0 +1,32 @@
+.homeAd {
+
+  grid-area: mainContent;
+  justify-content: space-around;
+  display: flex;
+}
+
+hr {
+  border-top: .4rem solid black;
+  width: 50%;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainText>h1 {
+  font-size: 6.4rem;
+
+}
+
+.mainText>p {
+
+  font-size: 4rem;
+  width: max-content;
+
+
+}
+
+.mainImg {}

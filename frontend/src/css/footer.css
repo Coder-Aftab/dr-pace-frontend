@@ -1,0 +1,11 @@
+.container{
+  display:block;
+  background-color: #06283D;
+  width: auto;
+  height: 7.5rem;
+  align-items: center;
+}
+.items{
+  color: #DFF6FF;
+  font-size: 4rem;
+}

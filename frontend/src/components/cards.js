@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import doc_card from "../resources/doctor_profile.png"
 import '../css/cards.css'

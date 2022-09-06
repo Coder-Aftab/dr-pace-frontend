@@ -2,3 +2,19 @@
 *,*::after,*::before{
   box-sizing:border-box;
 }
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "mainContent"
+    "footer";
+}
+
+.navbar {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}

@@ -1,15 +1,15 @@
 
 import Button from "./button";
 import React from "react";
-import "../css/doctersignup.css"
+import "../css/loginform.css"
 export const DocRegister = () => {
 
 
   return (
-      <div className="docsignup">
-      <div className="docBox">
+      <div className="sign">
+      <div className="signBox">
         <h1>Doctor Signup</h1>
-        <form  className="docform">
+        <form  className="signform">
           <label>
             Name
           </label>

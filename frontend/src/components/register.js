@@ -18,7 +18,7 @@ const Register = () => {
 
           <h1>Doctor</h1>
           <Link to="/DocRegister">
-            <Button></Button>
+           <button className="signUpBtn">Signup</button>
             </Link>
           <br />
           <Link to="/DocSignIn">
@@ -30,7 +30,7 @@ const Register = () => {
         <div className="patRegister">
           <h1>Patient</h1>
           <Link to="/PatientRegister">
-            <Button></Button>
+            <button className="signUpBtn">Signup</button>
             </Link>
           <br />
           <Link to="/PatientLogin">

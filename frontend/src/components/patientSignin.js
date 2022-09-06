@@ -7,7 +7,19 @@ export const PatientSignIn = () => {
 
   return (
 
-    <>Patient SignIn</>
+    <div className="sign">
+      <div className="signBox">
+        <h1>Patient Signin</h1>
+        <form  className="signform">
+
+          <label>
+            Phone
+          </label>
+          <input type="number" required></input>
+         <button className="signUpBtn">Signin</button>
+        </form>
+      </div>
+    </div>
   )
 }
 

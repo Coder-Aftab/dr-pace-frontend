@@ -1,4 +1,4 @@
-.docsignup{
+.sign{
   margin-top: 3rem;
   margin-bottom: 7rem;
   display: flex;
@@ -6,34 +6,34 @@
 
 
 }
-.docBox>h1{
+.signBox>h1{
   text-align: center;
   font-size: 3rem;
   color: #0B2F8A;
   font-weight: bolder;
 }
-.docBox{
+.signBox{
   display: flex;
   flex-direction: column;
   width: 80rem;
   background-color: #F6F6F6;
   align-items: center;
 }
-.docform{
+.signform{
   display: flex;
   width: 80%;
   flex-direction: column;
   background-color: #F6F6F6;
   margin-bottom: 5rem;
 }
-.docform>label{
+.signform>label{
   margin: .5rem;
   font-size: 1.8rem;
 
   color: #9394b5cc;
 
 }
-.docform>input{
+.signform>input{
   color: #0B2F8A;
   font-size: 2rem;
   border-top:0;
